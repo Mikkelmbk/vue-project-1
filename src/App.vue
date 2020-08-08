@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-red-700 min-h-screen" id="app">
+  <div class="bg-blue-700 min-h-screen" id="app">
     <Nav class="mb-6" />
   </div>
 </template>

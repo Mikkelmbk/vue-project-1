@@ -4,6 +4,7 @@
       <p>{{ status }}</p>
 
       <button class="button bg-yellow-500 rounded p-1 mx-2 text-red-500 font-bold border-2 border-black outline-none" v-on:click="changeStatus">Click me</button>
+      <img src="../assets/aklift-logo-removebg-preview.png" alt="">
 
       <input type="text" v-model="username">
       <p> {{ username }}</p>
