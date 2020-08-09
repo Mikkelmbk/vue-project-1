@@ -1,17 +1,20 @@
 <template>
-  <div class="bg-blue-700 min-h-screen" id="app">
+  <div class="min-h-screen" id="app">
     <Nav class="mb-6" />
+    <Carousel class="center" />
   </div>
 </template>
 
 <script>
 
 import Nav from './components/Nav.vue'
+import Carousel from './components/Carousel.vue'
 
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,
+    Carousel
   }
 }
 </script>
